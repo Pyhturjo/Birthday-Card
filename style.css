@@ -1,0 +1,51 @@
+body{
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    background-color :#8c8877;
+    color:white ;
+    text-shadow: 0px 0px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#8c8877,black);
+}
+
+    .circular-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border-style: dotted;
+  border: 4px solid black;
+  object-fit: cover; /* Prevents squishing if the original image is rectangular */
+}
+
+h2,h3{
+    background-color:#e2b47d ;
+    padding: 5px ;
+    margin: 5px 5px 5px;
+    border-radius: 5px;
+    text-shadow: 5px 2px 10px black;
+}
+.gif-section{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.gif{
+    width: 600px;
+    border-radius: 10%;
+    border: 5px solid black;
+}
+
+.wish{
+    margin: 10px 15px 20px;
+}
+
+.gif:hover{
+    content: url(./media/giphy.gif);
+    width: 600px;
+    border-radius: 10%;
+    border: 5px solid black;
+}
